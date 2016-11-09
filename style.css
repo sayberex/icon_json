@@ -1,0 +1,57 @@
+header {
+    font-size: 2em;
+    background-image: linear-gradient(grey,white,grey);
+    height: 3em;
+    color: green;
+}
+
+h1 {
+    padding-top: 1em;
+    text-align: center;
+}
+
+main {
+    padding-top: 1em;
+}
+
+.cicon_table {
+    border-collapse: collapse;  /*to remove double lines*/
+    
+    /*border-width: 1px;
+    border-style: solid;*/
+
+    display: inline-block;
+}
+
+
+#ID_SECTION_TABLES {    
+    background-color: #DDD;
+    text-align: center;
+}
+
+.cicon_table tr {
+    /*border: 1px solid black;*/
+}
+
+.cicon_table tr td {
+    padding: 5px;
+    min-width: 32px;
+    border: 1px solid black;
+    text-align: center;
+}
+
+.cicon_table tr td.cseparator {
+    width: 20px;
+    border-top-color: #DDD;
+    border-bottom-color: #DDD;
+}
+
+/*class1 {
+    margin-left: 20px;
+    margin-right: 20px;
+}*/
+
+
+/*.cseparator {
+}*/
+
